@@ -3,9 +3,10 @@ import React from 'react';
 import './App.css';
 
 
-import Header from './Header.jsx';
-import Navbar from './Navbar';
-import Profile from './Profile';
+import Header from './Components/Header/Header.jsx';
+import Navbar from './Components/Navbar/Navbar';
+import Profile from './Components/Profile/Profile';
+import Footer from './Components/Footer/footer'
 
 const App = () => {
   return (
@@ -13,10 +14,12 @@ const App = () => {
       <Header />
       <Navbar />
       <Profile />
-     <footer className="footer">It's foooooter</footer>
+     <Footer />
     </div>
 
   );
 }
 
 export default App;
+
+//gitk --all&

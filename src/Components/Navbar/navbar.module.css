@@ -1,0 +1,17 @@
+.nav{
+    padding:  8px 0 0 8px;
+  
+    grid-area: n;
+    background-color: rgb(34, 207, 34);
+    color: white;
+    font-size: large;
+  }
+    
+  .nav_ref{
+    color: white;
+  }
+
+  .active{
+    color: goldenrod;
+  }
+

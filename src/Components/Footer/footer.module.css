@@ -1,0 +1,11 @@
+fotter{
+    background-color: rgb(7, 92, 7);
+}
+
+.footer_p{
+    background-color: rgb(94, 130, 231);
+}
+
+.footer{
+    grid-area: f;
+  }
