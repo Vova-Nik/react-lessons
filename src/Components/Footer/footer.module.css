@@ -1,11 +1,9 @@
-fotter{
-    background-color: rgb(7, 92, 7);
-}
-
 .footer_p{
-    background-color: rgb(94, 130, 231);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .footer{
     grid-area: f;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0);
   }

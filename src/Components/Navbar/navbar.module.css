@@ -1,17 +1,22 @@
 .nav{
-    padding:  8px 0 0 8px;
-  
+    padding:  8px 0 0 16px;
     grid-area: n;
     background-color: rgb(34, 207, 34);
-    color: white;
     font-size: large;
   }
     
-  .nav_ref{
+  .item a{
     color: white;
+    text-decoration: none;
   }
 
-  .active{
-    color: goldenrod;
+  .item > p{
+    color: rgb(99, 247, 54);
   }
+
+  .item a.activeLink{
+    color: rgb(243, 247, 29);
+  }
+
+
 
