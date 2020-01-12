@@ -11,7 +11,7 @@ import {BrowserRouter} from "react-router-dom";
 let rerenderEntireTree = () => {
  ReactDOM.render(
      <BrowserRouter>
-      <App state={state} addPost={addPost} updateNewPostText={updateNewPostText}/>
+           <App state={state} addPost={addPost} updateNewPostText={updateNewPostText}/>
      </BrowserRouter>, document.getElementById('root')
  );
 };
