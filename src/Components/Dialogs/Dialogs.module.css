@@ -1,0 +1,62 @@
+.dialogs {
+    background-color: #ff260f;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 2fr 6fr;
+}
+
+.dialog {
+    background-color: #b2a108;
+    padding: 8px 1em;
+    color: blue;
+}
+
+.dialogsItems {
+    color: blue;
+
+}
+
+.dialogsItems .active {
+    color: gold;
+}
+
+.dialogs .dialogControls{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #f7d112;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.textArea{
+    width: 90%;
+    margin: 1em auto;
+    padding: 1em;
+    /*background-color: #047103;*/
+}
+.btnAdd{
+    margin: 1em auto;
+    padding: 1em;
+    background-color: #047103;
+    border-color: black;
+    border-radius: 12px;
+}
+
+.btnAdd:hover{
+    background-color: #b2a108;
+    cursor: pointer;
+}
+
+.messages {
+    background-color: #f7d112;
+    padding: 1em 2em;
+}
+
+.message {
+    background-color: rgba(144 0 200 0 );
+}
+
+

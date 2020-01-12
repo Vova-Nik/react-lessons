@@ -2,12 +2,12 @@ import React from 'react';
 import s from './MyPosts.module.css';
 import Post from './Post/Post.jsx'
 
-
-const MyPosts = () => {
+const MyPosts = (props) => {
+let  posts = props.postsArr.map(post => {
+       return <div key={post.id} className={s.item_holder}> <Post postName = {post.postName} ava = {post.ava} content = {post.content} likesCount = {post.likesCount}/></div>
+    });
     return <div className={s.content}>
-        <div className={s.item_holder}><Post name="Post1" cont="Hi Vovchik" ava="ava1.jpg"/></div>
-        <div className={s.item_holder}><Post name="Post2" cont="Hi Lilisa" ava="ava2.png"/></div>
-        <div className={s.item_holder}> <Post name="Post3" cont="Hi everybody"/></div>
+        {posts}
     </div>
 };
 export default MyPosts;
